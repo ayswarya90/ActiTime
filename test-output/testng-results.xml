@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="7" total="16" passed="9">
+  <reporter-output>
+    <line>
+      <![CDATA[execution started]]>
+    </line>
+    <line>
+      <![CDATA[login method is executed]]>
+    </line>
+    <line>
+      <![CDATA[execution stopped]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="123598" started-at="2020-09-16T20:57:06Z" finished-at="2020-09-16T20:59:09Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="123598" started-at="2020-09-16T20:57:06Z" finished-at="2020-09-16T20:59:09Z">
+      <class name="com.scripts.Actitime.TestActitimeLeaveType">
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:com.scripts.Actitime.TestActitimeLeaveType@3d74bf60]" name="openBrowser" is-config="true" duration-ms="7998" started-at="2020-09-16T20:57:46Z" finished-at="2020-09-16T20:57:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="logintoApp()[pri:0, instance:com.scripts.Actitime.TestActitimeLeaveType@3d74bf60]" name="logintoApp" is-config="true" duration-ms="196" started-at="2020-09-16T20:57:54Z" finished-at="2020-09-16T20:57:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logintoApp -->
+        <test-method status="PASS" signature="createleavetype()[pri:0, instance:com.scripts.Actitime.TestActitimeLeaveType@3d74bf60]" name="createleavetype" duration-ms="5368" started-at="2020-09-16T20:57:55Z" finished-at="2020-09-16T20:58:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createleavetype -->
+        <test-method status="PASS" signature="logoutApp()[pri:0, instance:com.scripts.Actitime.TestActitimeLeaveType@3d74bf60]" name="logoutApp" is-config="true" duration-ms="2858" started-at="2020-09-16T20:58:00Z" finished-at="2020-09-16T20:58:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutApp -->
+        <test-method status="PASS" signature="logintoApp()[pri:0, instance:com.scripts.Actitime.TestActitimeLeaveType@3d74bf60]" name="logintoApp" is-config="true" duration-ms="153" started-at="2020-09-16T20:58:03Z" finished-at="2020-09-16T20:58:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logintoApp -->
+        <test-method status="PASS" signature="leavetypeedit()[pri:0, instance:com.scripts.Actitime.TestActitimeLeaveType@3d74bf60]" name="leavetypeedit" duration-ms="11597" started-at="2020-09-16T20:58:03Z" depends-on-methods="com.scripts.Actitime.TestActitimeLeaveType.createleavetype" finished-at="2020-09-16T20:58:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- leavetypeedit -->
+        <test-method status="PASS" signature="logoutApp()[pri:0, instance:com.scripts.Actitime.TestActitimeLeaveType@3d74bf60]" name="logoutApp" is-config="true" duration-ms="2840" started-at="2020-09-16T20:58:15Z" finished-at="2020-09-16T20:58:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutApp -->
+        <test-method status="PASS" signature="logintoApp()[pri:0, instance:com.scripts.Actitime.TestActitimeLeaveType@3d74bf60]" name="logintoApp" is-config="true" duration-ms="181" started-at="2020-09-16T20:58:17Z" finished-at="2020-09-16T20:58:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logintoApp -->
+        <test-method status="PASS" signature="deleteleaveType()[pri:0, instance:com.scripts.Actitime.TestActitimeLeaveType@3d74bf60]" name="deleteleaveType" duration-ms="9296" started-at="2020-09-16T20:58:18Z" depends-on-methods="com.scripts.Actitime.TestActitimeLeaveType.leavetypeedit" finished-at="2020-09-16T20:58:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteleaveType -->
+        <test-method status="PASS" signature="logoutApp()[pri:0, instance:com.scripts.Actitime.TestActitimeLeaveType@3d74bf60]" name="logoutApp" is-config="true" duration-ms="2838" started-at="2020-09-16T20:58:27Z" finished-at="2020-09-16T20:58:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutApp -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.scripts.Actitime.TestActitimeLeaveType@3d74bf60]" name="closeBrowser" is-config="true" duration-ms="0" started-at="2020-09-16T20:58:30Z" finished-at="2020-09-16T20:58:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.scripts.Actitime.TestActitimeLeaveType -->
+      <class name="com.scripts.Actitime.TestActitimeCustomer">
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:com.scripts.Actitime.TestActitimeCustomer@15c43bd9]" name="openBrowser" is-config="true" duration-ms="7877" started-at="2020-09-16T20:57:18Z" finished-at="2020-09-16T20:57:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="logintoApp()[pri:0, instance:com.scripts.Actitime.TestActitimeCustomer@15c43bd9]" name="logintoApp" is-config="true" duration-ms="227" started-at="2020-09-16T20:57:26Z" finished-at="2020-09-16T20:57:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logintoApp -->
+        <test-method status="PASS" signature="customercreation()[pri:0, instance:com.scripts.Actitime.TestActitimeCustomer@15c43bd9]" name="customercreation" duration-ms="5987" started-at="2020-09-16T20:57:26Z" finished-at="2020-09-16T20:57:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- customercreation -->
+        <test-method status="PASS" signature="logoutApp()[pri:0, instance:com.scripts.Actitime.TestActitimeCustomer@15c43bd9]" name="logoutApp" is-config="true" duration-ms="2835" started-at="2020-09-16T20:57:32Z" finished-at="2020-09-16T20:57:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutApp -->
+        <test-method status="PASS" signature="logintoApp()[pri:0, instance:com.scripts.Actitime.TestActitimeCustomer@15c43bd9]" name="logintoApp" is-config="true" duration-ms="167" started-at="2020-09-16T20:57:35Z" finished-at="2020-09-16T20:57:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logintoApp -->
+        <test-method status="PASS" signature="customerdeletion()[pri:0, instance:com.scripts.Actitime.TestActitimeCustomer@15c43bd9]" name="customerdeletion" duration-ms="8521" started-at="2020-09-16T20:57:35Z" depends-on-methods="com.scripts.Actitime.TestActitimeCustomer.customercreation" finished-at="2020-09-16T20:57:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- customerdeletion -->
+        <test-method status="PASS" signature="logoutApp()[pri:0, instance:com.scripts.Actitime.TestActitimeCustomer@15c43bd9]" name="logoutApp" is-config="true" duration-ms="2860" started-at="2020-09-16T20:57:44Z" finished-at="2020-09-16T20:57:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutApp -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.scripts.Actitime.TestActitimeCustomer@15c43bd9]" name="closeBrowser" is-config="true" duration-ms="1" started-at="2020-09-16T20:57:46Z" finished-at="2020-09-16T20:57:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.scripts.Actitime.TestActitimeCustomer -->
+      <class name="com.scripts.Actitime.TestActitimeLogin">
+        <test-method status="PASS" signature="executionStarted()[pri:0, instance:com.scripts.Actitime.TestActitimeLogin@41e36e46]" name="executionStarted" is-config="true" duration-ms="9" started-at="2020-09-16T20:57:06Z" finished-at="2020-09-16T20:57:06Z">
+          <reporter-output>
+            <line>
+              <![CDATA[execution started]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- executionStarted -->
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:com.scripts.Actitime.TestActitimeLogin@41e36e46]" name="openBrowser" is-config="true" duration-ms="8993" started-at="2020-09-16T20:57:06Z" finished-at="2020-09-16T20:57:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="logintoApp()[pri:0, instance:com.scripts.Actitime.TestActitimeLogin@41e36e46]" name="logintoApp" is-config="true" duration-ms="574" started-at="2020-09-16T20:57:15Z" finished-at="2020-09-16T20:57:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logintoApp -->
+        <test-method status="PASS" signature="login()[pri:0, instance:com.scripts.Actitime.TestActitimeLogin@41e36e46]" name="login" duration-ms="6" started-at="2020-09-16T20:57:15Z" finished-at="2020-09-16T20:57:15Z">
+          <reporter-output>
+            <line>
+              <![CDATA[login method is executed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="logoutApp()[pri:0, instance:com.scripts.Actitime.TestActitimeLogin@41e36e46]" name="logoutApp" is-config="true" duration-ms="2649" started-at="2020-09-16T20:57:15Z" finished-at="2020-09-16T20:57:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutApp -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.scripts.Actitime.TestActitimeLogin@41e36e46]" name="closeBrowser" is-config="true" duration-ms="0" started-at="2020-09-16T20:57:18Z" finished-at="2020-09-16T20:57:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="executionStopped()[pri:0, instance:com.scripts.Actitime.TestActitimeLogin@41e36e46]" name="executionStopped" is-config="true" duration-ms="1" started-at="2020-09-16T20:59:09Z" finished-at="2020-09-16T20:59:09Z">
+          <reporter-output>
+            <line>
+              <![CDATA[execution stopped]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- executionStopped -->
+      </class> <!-- com.scripts.Actitime.TestActitimeLogin -->
+      <class name="com.scripts.Actitime.TestActitimeWorkType">
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:com.scripts.Actitime.TestActitimeWorkType@4f209819]" name="openBrowser" is-config="true" duration-ms="8241" started-at="2020-09-16T20:58:30Z" finished-at="2020-09-16T20:58:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="logintoApp()[pri:0, instance:com.scripts.Actitime.TestActitimeWorkType@4f209819]" name="logintoApp" is-config="true" duration-ms="296" started-at="2020-09-16T20:58:38Z" finished-at="2020-09-16T20:58:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logintoApp -->
+        <test-method status="PASS" signature="creatework()[pri:0, instance:com.scripts.Actitime.TestActitimeWorkType@4f209819]" name="creatework" duration-ms="5077" started-at="2020-09-16T20:58:38Z" finished-at="2020-09-16T20:58:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- creatework -->
+        <test-method status="PASS" signature="logoutApp()[pri:0, instance:com.scripts.Actitime.TestActitimeWorkType@4f209819]" name="logoutApp" is-config="true" duration-ms="2833" started-at="2020-09-16T20:58:43Z" finished-at="2020-09-16T20:58:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutApp -->
+        <test-method status="PASS" signature="logintoApp()[pri:0, instance:com.scripts.Actitime.TestActitimeWorkType@4f209819]" name="logintoApp" is-config="true" duration-ms="147" started-at="2020-09-16T20:58:46Z" finished-at="2020-09-16T20:58:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logintoApp -->
+        <test-method status="PASS" signature="worktypeedit()[pri:0, instance:com.scripts.Actitime.TestActitimeWorkType@4f209819]" name="worktypeedit" duration-ms="7844" started-at="2020-09-16T20:58:46Z" depends-on-methods="com.scripts.Actitime.TestActitimeWorkType.creatework" finished-at="2020-09-16T20:58:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- worktypeedit -->
+        <test-method status="PASS" signature="logoutApp()[pri:0, instance:com.scripts.Actitime.TestActitimeWorkType@4f209819]" name="logoutApp" is-config="true" duration-ms="2817" started-at="2020-09-16T20:58:54Z" finished-at="2020-09-16T20:58:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutApp -->
+        <test-method status="PASS" signature="logintoApp()[pri:0, instance:com.scripts.Actitime.TestActitimeWorkType@4f209819]" name="logintoApp" is-config="true" duration-ms="165" started-at="2020-09-16T20:58:57Z" finished-at="2020-09-16T20:58:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logintoApp -->
+        <test-method status="PASS" signature="worktypedelete()[pri:0, instance:com.scripts.Actitime.TestActitimeWorkType@4f209819]" name="worktypedelete" duration-ms="9285" started-at="2020-09-16T20:58:57Z" depends-on-methods="com.scripts.Actitime.TestActitimeWorkType.worktypeedit" finished-at="2020-09-16T20:59:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- worktypedelete -->
+        <test-method status="PASS" signature="logoutApp()[pri:0, instance:com.scripts.Actitime.TestActitimeWorkType@4f209819]" name="logoutApp" is-config="true" duration-ms="2848" started-at="2020-09-16T20:59:06Z" finished-at="2020-09-16T20:59:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutApp -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.scripts.Actitime.TestActitimeWorkType@4f209819]" name="closeBrowser" is-config="true" duration-ms="0" started-at="2020-09-16T20:59:09Z" finished-at="2020-09-16T20:59:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.scripts.Actitime.TestActitimeWorkType -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
