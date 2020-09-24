@@ -3,10 +3,11 @@
 <suite name="Suite">
   <test thread-count="5" name="Test">
     <classes>
-     <class name="com.scripts.Actitime.TestActitimeLogin"/>
       <class name="com.scripts.Actitime.TestActitimeCustomer"/>
       <class name="com.scripts.Actitime.TestActitimeLeaveType"/>
-     <class name="com.scripts.Actitime.TestActitimeWorkType"/>
+      <class name="com.scripts.Actitime.TestActitimeLogin"/>
+      <class name="com.scripts.Actitime.TestActitimeWorkType"/>
+      <class name="com.scripts.Actitime.TestActitimeTasks"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
